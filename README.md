@@ -4,7 +4,7 @@
 
 - default UART baud: 115200 bps
 - default receive buffer size: 64KB
-- default send interval: 15000ms(10s)
+- default send interval: 15000ms(15s)
 - default SIM parameter: soracom.io / sora / sora
 - default domain and port: beam.soracom.io:23080
 
