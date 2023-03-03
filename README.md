@@ -11,7 +11,7 @@
 # Operation
 
 - Always receives log texts from UART and write them to the buffer(64KB default).
-- Get the first 1460 bytes from the buffer and send them to the internet every 10 seconds(default).
+- Get the first 1460 bytes from the buffer and send them to the internet every 15 seconds(default).
 - The send size will be less than 1460 bytes if there is any LF character in the first 1460bytes of the buffer to help the receiving system.
 
 # Why is the interval 15 seconds?
